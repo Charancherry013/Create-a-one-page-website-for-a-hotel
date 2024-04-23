@@ -1,0 +1,102 @@
+HTML CODE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Footwear Store</title>
+<!-- Add your stylesheets and scripts here -->
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Header Section -->
+<header>
+<h1>Step into your next adventure</h1>
+<img src="hero-image.jpg" alt="Variety of shoes in action">
+<p>Explore our wide selection of footwear for every lifestyle and occasion.</p>
+</header>
+<!-- CTA Buttons Section -->
+<section>
+<button type="button">Shop sneakers</button>
+<button type="button">Shop boots</button>
+<button type="button">Shop heels</button>
+<button type="button">Shop sandals</button>
+</section>
+<!-- Product Categories Section -->
+<section>
+<h2>Product Categories</h2>
+<ul>
+<li>Men's shoes</li>
+<li>Women's shoes</li>
+<li>Kids' shoes</li>
+<li>Activewear</li>
+<li>Casual shoes</li>
+<li>Dress shoes</li>
+</ul>
+</section>
+<!-- Social Proof Section -->
+<section>
+<h2>Social Proof</h2>
+<!-- Add logos of trusted brands and customer testimonials/reviews here -->
+</section>
+<!-- Promotional Offer Section -->
+<section>
+<h2>Promotional Offer</h2>
+<p>Discover our sale on popular styles! Enjoy free shipping on orders above $50.</p>
+</section>
+<!-- Footer Section -->
+<footer>
+<nav>
+<a href="about-us.html">About Us</a>
+<a href="return-policy.html">Return Policy</a>
+<a href="contact.html">Contact</a>
+</nav>
+</footer>
+</body>
+</html>
+CSS CODE
+/* Reset some default styles for consistency */
+body, h1, h2, p, ul, button, nav, a {
+margin: 0;
+padding: 0;
+}
+/* Basic styling for the body */
+body {
+font-family: 'Roboto', sans-serif;
+line-height: 1.6;
+background-color: #f8f8f8;
+color: #333;
+}
+/* Header styling */
+header {
+text-align: center;
+padding: 50px 0;
+}
+header h1 {
+font-size: 3em;
+margin-bottom: 20px;
+color: #2c3e50;
+}
+header img {
+max-width: 100%;
+height: auto;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+header p {
+font-size: 1.2em;
+color: #555;
+}
+/* CTA Buttons styling */
+section button {
+display: block;
+width: 100%;
+padding: 15px;
+margin-bottom: 15px;
+font-size: 1.2em;
+CSS CODE
+transition: color 0.3s ease;
+}
+nav a:hover {
+color: #bdc3c7;
+}
